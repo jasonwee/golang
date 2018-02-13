@@ -18,3 +18,17 @@ rune // alias for int32
 float32 float64
 
 complex64 complex128
+
+### run it
+```
+$ go run functions.go
+```
+
+### or build it into binary then run it
+```
+$ go build functions.go
+$ ls
+functions functions.go
+
+$ ./functions
+```
